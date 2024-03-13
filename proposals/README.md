@@ -3,7 +3,9 @@
 A KubeVirt Enhancement Proposal (EP) is a way to propose, communicate and coordinate on new efforts for the KubeVirt project.
 You can read the full details of the project in [VEP-0000](sig-architecture/0000-vep-process/README.md).
 
-This document is adopted from and very similar to the [KubeVirt KEP Process].
+This document is adopted from and very similar to the [Kubernetes KEP Process].
+
+> [!NOTE] SIG members should read [SIG_README.md](SIG_README.md)
 
 ## Overview
 
@@ -79,4 +81,4 @@ The EP process is still evolving!
 If something is missing or not answered here feel free to reach out to [SIG Architecture](https://git.k8s.io/community/sig-architecture/README.md).
 If you want to propose a change to the EP process you can open a PR on [EP-0000](sig-architecture/0000-kep-process/README.md) with your proposal.
 
-[KubeVirt KEP Process]: https://github.com/KubeVirt/enhancements/blob/master/keps/README.md
+[Kubenetes KEP Process]: https://github.com/KubeVirt/enhancements/blob/master/keps/README.md
