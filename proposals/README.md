@@ -5,7 +5,8 @@ You can read the full details of the project in [VEP-0000](sig-architecture/0000
 
 This document is adopted from and very similar to the [Kubernetes KEP Process].
 
-> [!NOTE] SIG members should read [SIG_README.md](SIG_README.md)
+> [!NOTE]
+> SIG members should read [SIG_README.md](SIG_README.md)
 
 ## Overview
 
