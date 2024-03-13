@@ -11,9 +11,7 @@
 - [Labels](#labels)
 - [Glossary](#glossary)
 
-Enhancement tracking repo for Kubernetes releases. Owned by [SIG Architecture](https://git.k8s.io/community/sig-architecture#enhancements).
-
-This repo contains issues and [KEPs](https://git.k8s.io/enhancements/keps). These issues are umbrellas for new enhancements to be added to Kubernetes. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one [Kubernetes SIG](https://git.k8s.io/community/sig-list.md).
+This repo contains issues and [KEPs](https://git.k8s.io/enhancements/keps). These issues are umbrellas for new enhancements to be added to KubeVirt. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one [KubeVirt SIG](https://git.k8s.io/community/sig-list.md).
 
 ## Is My Thing an Enhancement?
 
@@ -21,15 +19,15 @@ We are trying to figure out the exact shape of an enhancement. Until then, here 
 
 An enhancement is anything that:
 
-- a blog post would be written about after its release (ex. [minikube](https://kubernetes.io/blog/2016/07/minikube-easily-run-kubernetes-locally/), [StatefulSets](https://kubernetes.io/blog/2016/07/thousand-instances-of-cassandra-using-kubernetes-pet-set/), [rkt container runtime](https://kubernetes.io/blog/2016/07/rktnetes-brings-rkt-container-engine-to-kubernetes/))
+- a blog post would be written about after its release
 - requires multiple parties/SIGs/owners participating to complete (ex. GPU scheduling [API, Core, & Node], StatefulSets [Storage & API])
 - will be graduating from one stage to another (ex. alpha to beta, beta to GA)
-- needs significant effort or changes Kubernetes in a significant way (ex. something that would take 10 person-weeks to implement, introduce or redesign a system component, or introduces API changes)
-- impacts the UX or operation of Kubernetes substantially such that engineers using Kubernetes will need retraining
+- needs significant effort or changes KubeVirt in a significant way (ex. something that would take 10 person-weeks to implement, introduce or redesign a system component, or introduces API changes)
+- impacts the UX or operation of KubeVirt substantially such that engineers using KubeVirt will need retraining
 - users will notice and come to rely on
 
 It is unlikely an enhancement if it is:
-- implemented using a `CustomResourceDefinition`
+- implememented by modifying Kubernetes code
 - fixing a flaky test
 - refactoring code
 - performance improvements, which are only visible to users as faster API operations, or faster control loops
