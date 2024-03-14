@@ -76,6 +76,7 @@ Technical elements:
 
 - VEPs will live in a new dedicated repository `kubevirt/enhancements`
 - `OWNER_ALIASES` will be mirrored from kubevirt/kubveirt in order to have the same sigs in the EP repository
+- Approvals and ownership is defined with `OWNERS` files in the `veps/sig-*` directories, tying into the general prow approval and merge flow
 - GitHub Issues will be used to create unique identifiers
 
 ## API Examples
