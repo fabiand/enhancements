@@ -1,7 +1,7 @@
 # KubeVirt Enhnacement Proposals (EPs)
 
 A KubeVirt Enhancement Proposal (EP) is a way to propose, communicate and coordinate on new efforts for the KubeVirt project.
-You can read the full details of the project in [VEP-0000](sig-architecture/0000-vep-process/README.md).
+You can read the full details of the project in [VEP-0000](sig-architecture/0000-template/README.md).
 
 This document is adopted from and very similar to the [Kubernetes KEP Process].
 
