@@ -4,14 +4,10 @@
 - [When to Create a New Enhancement Issue](#when-to-create-a-new-enhancement-issue)
 - [Why Are Enhancements Tracked](#why-are-enhancements-tracked)
 - [When to Comment on an Enhancement Issue](#when-to-comment-on-an-enhancement-issue)
-- [Enhancements Tracking Board](#enhancements-tracking-board)
-- [Enhancements Tracking Spreadsheet](#enhancements-tracking-spreadsheet)
-- [Current Release Cycle](#current-release-cycle)
-- [Exceptions to Enhancement Milestone Dates](#exceptions-to-enhancement-milestone-dates)
 - [Labels](#labels)
 - [Glossary](#glossary)
 
-This repo contains issues and [KEPs](https://git.k8s.io/enhancements/keps). These issues are umbrellas for new enhancements to be added to KubeVirt. An enhancement usually takes multiple releases to complete. And an enhancement can be tracked as backlog items before work begins. An enhancement may be filed once there is consensus in at least one [KubeVirt SIG](https://git.k8s.io/community/sig-list.md).
+This repo contains Virtualization Enhnacement Proposals (VEPs). VEPs are umbrellas for new enhancements to be added to KubeVirt. An enhancement can take one or more releases to complete. An enhancement may be filed once there is consensus in at least one KubeVirt SIG.
 
 ## Is My Thing an Enhancement?
 
@@ -34,13 +30,13 @@ It is unlikely an enhancement if it is:
 - adding error messages or events
 
 If you are not sure, ask someone in the SIG where you initially circulated the idea. If they aren't sure, jump into
-[#enhancements](https://kubernetes.slack.com/messages/enhancements/) on Slack or ping someone listed in [OWNERS](https://github.com/kubernetes/enhancements/blob/master/OWNERS).
+[#kubevirt-dev](https://kubernetes.slack.com/messages/kubevirt-dev/) on Slack or ping someone listed in [OWNERS](https://github.com/kubernetes/enhancements/blob/master/OWNERS).
 
-## When to Create a New Enhancement Issue
+## When to Create a New Enhancement Proposal
 
-Create an [issue](https://github.com/kubernetes/enhancements/issues/new) in this repository once you:
+Open a PR in this repository once you:
 - have circulated your idea to see if there is interest
-   - through Community Meetings, SIG meetings, SIG mailing lists, or an issue in github.com/kubernetes/kubernetes
+   - through Community Meetings, SIG meetings, SIG mailing lists, or an issue in github.com/kubevirt/kubevirt
 - (optionally) have done a prototype in your own fork
 - have identified people who agree to work on the enhancement
   - many enhancements will take several releases to progress through Alpha, Beta, and Stable stages
@@ -51,48 +47,13 @@ Create an [issue](https://github.com/kubernetes/enhancements/issues/new) in this
 
 Once users adopt an enhancement, they expect to use it for an extended period of time. Therefore, we hold new enhancements to a high standard of conceptual integrity and require consistency with other parts of the system, thorough testing, and complete documentation. As the project grows, no single person can track whether all those requirements are met. 
 
-The development of an enhancement often spans three stages: Alpha, Beta, and Stable. Enhancement Tracking Issues provide a checklist that allows for different approvers for different aspects, and ensures that nothing is forgotten across the
-development lifetime of an enhancement.
+## When to Comment on an Enhancement Proposal
 
-## When to Comment on an Enhancement Issue
-
-Please comment on the enhancement issue to:
+Please comment on the enhancement proposal to:
 - request a review or clarification on the process
 - update status of the enhancement effort
 - link to relevant issues in other repos
-
-Please do not comment on the enhancement issue to:
-- discuss a detail of the design, code or docs. Use a linked-to-issue or PR for that
-
-## Enhancements Tracking Board
-
-As of the 1.26 release, enhancements from this repo are visualized in the Enhancements Tracking Boards.
-
-Links:
-
-- [1.30 Milestone](https://bit.ly/k8s130-enhancements)
-- [1.29 Milestone](https://bit.ly/k8s129-enhancements)
-- [1.28 Milestone](https://bit.ly/k8s128-enhancements)
-- [1.27 Milestone](https://bit.ly/k8s127-enhancements)
-- [1.26 Milestone](https://bit.ly/k8s126-enhancements)
-
-## Enhancements Tracking Spreadsheet
-
-Prior to the 1.26 release, enhancements from this repo were visualized using Enhancements Tracking Spreadsheets.
-
-Please refer to the [Enhancements Tracking Spreadsheet Archive](docs/archived-tracking-sheets.md) for links to 
-these sheets.
-
-Procedure:
-*TBA*
-
-### Current Release Cycle
-
-[Dates and further information for the 1.28 Release](https://github.com/kubernetes/sig-release/tree/master/releases/release-1.28)
-
-## Exceptions to Enhancement Milestone Dates
-
-The Exceptions Process is handled by the Release Team, please see their [documentation](https://github.com/kubernetes/sig-release/blob/master/releases/EXCEPTIONS.md) for further details.
+- discuss a detail of the design, code or docs
 
 ## Labels
 
@@ -105,4 +66,3 @@ The Exceptions Process is handled by the Release Team, please see their [documen
 ## Glossary
 
 Please refer to the [Glossary](docs/glossary.md) for the definition of any terminology and acronyms used in the Enhancements subproject.
-

@@ -11,10 +11,15 @@ This document is adopted from and very similar to the [Kubernetes KEP Process].
 ## Overview
 
 Allmost all EPs must go through SIGs.
-A SIG has to sponsor an EP, the SIG has to approve it, the SIG is responsible
-for contacting related SIGs, and the SIG will become the owner of the newly
-proposed feature - including but not limited to any potential code, and services
-(such as CI).
+
+A SIG
+
+* must to sponsor an EP
+* must to approve it
+* is responsible for coordination with related SIGs
+* will become the owner of the proposed feature once merged - 
+  including but not limited to any potential code, and services
+  (such as CI).
 
 ## Quick start for the EP process
 
