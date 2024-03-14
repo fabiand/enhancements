@@ -1,0 +1,24 @@
+title: Virualization Enhancement Proposal Process
+authors:
+  - "@fabiand"
+owning-sig: sig-architecture
+status: provisional
+creation-date: 2024-03-14
+
+reviewers:
+  - "@vromanso"
+approvers:
+  - "@vromanso"
+
+see-also: []
+replaces: []
+
+# The target maturity stage in the current dev cycle for this KEP.
+stage: beta
+
+# The milestone at which this feature was, or is targeted to be, at each stage.
+milestone:
+  beta: "v1.3"
+
+# List the feature gate name and the components for which it must be enabled
+feature-gates: []
