@@ -55,7 +55,26 @@ This has a few effects - see the following Goals section.
 - https://github.com/kubevirt/enhancements
 
 # Design
-(This should be brief and concise. We want just enough to get the point across)
+
+Key elements:
+
+- Ownership: SIGs own a freature from it's inception (design) all the way to it's end
+- Approvals: SIG approvers will be allowed to approve designs
+- Responsibilities: SIG Approvers are responsible for driving a design, and connecitng it to other SIGs as needed
+
+Process elements:
+
+- VEP Author creates a GitHub Issue for getting a unique identifier and starting the process
+- VEP Author creates a PR to propose the design targeting a specific SIG
+- SIG decides on an approver to sheppered the VEP
+- SIG collaborates with other SIGs to ensure it's throughly reviewed
+- SIG approves or rejects VEP
+- SIG owns future maintenance of the implementation
+
+Technical elements:
+
+- `OWNER_ALIASES` will be mirrored from kubevirt/kubveirt in order to have the same sigs in the EP repository
+- GitHub Issues will be used to create unique identifiers
 
 ## API Examples
 
