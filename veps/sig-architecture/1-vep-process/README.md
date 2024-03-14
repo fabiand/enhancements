@@ -73,6 +73,7 @@ Process elements:
 
 Technical elements:
 
+- VEPs will live in a new dedicated repository `kubevirt/enhancements`
 - `OWNER_ALIASES` will be mirrored from kubevirt/kubveirt in order to have the same sigs in the EP repository
 - GitHub Issues will be used to create unique identifiers
 
