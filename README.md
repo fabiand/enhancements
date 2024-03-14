@@ -46,7 +46,7 @@ Create an issue and PR in this repository once you:
 
 ## How to Create a New Enhancement Issue and Proposal
 
-Follow this [quick start for the EP process](proposals/README.md#quick-start-for-the-ep-process).
+Follow this [quick start for the EP process](veps/README.md#quick-start-for-the-ep-process).
 
 ## Why Are Enhancements Tracked
 
