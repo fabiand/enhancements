@@ -1,0 +1,7 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+reviewers:
+  - sig-architecture-reviewers
+approvers:
+  - sig-architecture-approvers
+labels:
+  - sig/architecture
