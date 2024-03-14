@@ -2,6 +2,7 @@
 
 - [Is My Thing an Enhancement?](#is-my-thing-an-enhancement)
 - [When to Create a New Enhancement Issue](#when-to-create-a-new-enhancement-issue)
+- [How to Create a New Enhancement Issue](#how-to-create-a-new-enhancement-issue)
 - [Why Are Enhancements Tracked](#why-are-enhancements-tracked)
 - [When to Comment on an Enhancement Issue](#when-to-comment-on-an-enhancement-issue)
 - [Labels](#labels)
@@ -30,11 +31,11 @@ It is unlikely an enhancement if it is:
 - adding error messages or events
 
 If you are not sure, ask someone in the SIG where you initially circulated the idea. If they aren't sure, jump into
-[#kubevirt-dev](https://kubernetes.slack.com/messages/kubevirt-dev/) on Slack or ping someone listed in [OWNERS](https://github.com/kubernetes/enhancements/blob/master/OWNERS).
+[#kubevirt-dev](https://kubernetes.slack.com/messages/kubevirt-dev/) on Slack or ping someone listed in [OWNERS](https://github.com/kubevirt/enhancements/blob/master/OWNERS).
 
-## When to Create a New Enhancement Proposal
+## When to Create a New Enhancement Issue and Proposal
 
-Open a PR in this repository once you:
+Create an issue and PR in this repository once you:
 - have circulated your idea to see if there is interest
    - through Community Meetings, SIG meetings, SIG mailing lists, or an issue in github.com/kubevirt/kubevirt
 - (optionally) have done a prototype in your own fork
@@ -42,6 +43,10 @@ Open a PR in this repository once you:
   - many enhancements will take several releases to progress through Alpha, Beta, and Stable stages
   - you and your team should be prepared to work on the approx. 9mo - 1 year that it takes to progress to Stable status
 - are ready to be the project manager for the enhancement
+
+## How to Create a New Enhancement Issue and Proposal
+
+Follow this [quick start for the EP process](proposals/README.md#quick-start-for-the-ep-process).
 
 ## Why Are Enhancements Tracked
 

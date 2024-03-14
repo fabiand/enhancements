@@ -1,6 +1,6 @@
-# KubeVirt Enhnacement Proposals (EPs)
+# KubeVirt Enhnacement Proposals (VEPs)
 
-A KubeVirt Enhancement Proposal (EP) is a way to propose, communicate and coordinate on new efforts for the KubeVirt project.
+A KubeVirt Enhancement Proposal (VEP sometimes also just EP) is a way to propose, communicate and coordinate on new efforts for the KubeVirt project.
 You can read the full details of the project in [VEP-0000](sig-architecture/0000-template/README.md).
 
 This document is adopted from and very similar to the [Kubernetes KEP Process].
@@ -10,12 +10,16 @@ This document is adopted from and very similar to the [Kubernetes KEP Process].
 
 ## Overview
 
-Allmost all EPs must go through SIGs.
+Proposals require
 
-A SIG
+1. an [issue](https://github.com/kubevirt/enhancements/issues) in order to generate a unique identifier and have a place to track the feature progress.
+2. a PR in order to discuss the proposals implementation
+3. A sponsoring SIG
 
-* must to sponsor an EP
-* must to approve it
+Allmost all EPs must go through SIGs, because a SIG
+
+* must sponsor an EP
+* must approve it
 * is responsible for coordination with related SIGs
 * will become the owner of the proposed feature once merged - 
   including but not limited to any potential code, and services
@@ -25,9 +29,14 @@ A SIG
 
 1. Think of a sponsoring SIG
 2. Socialize an idea with a sponsoring SIG.
-   You can send your idea to their mailing list, or add it to the agenda for one of their upcoming meetings.
-   Make sure that others think the work is worth taking up and will help review the EP and any code changes required.
-3. Follow the process outlined in the [EP template](NNNN-kep-template/README.md)
+   You can send your idea to their mailing list, or add it to the 
+   agenda for one of their upcoming meetings. Make sure that others
+   think the work is worth taking up and will help review the EP and
+   any code changes required.
+3. Create an [issue](https://github.com/kubevirt/enhancements/issues)
+   in order to get a unique identifier for your new proposal.
+   This issue is also used to track the feature life-cycle until GA.
+4. Create a PR based on the [EP template](sig-architecture/0000-template/).
 
 ## FAQs
 
@@ -64,7 +73,7 @@ Benefits to EP users (in the limit):
 Almost all EPs should go into SIG subdirectories.  In very rare cases, such as
 EPs about EPs, we may choose to keep them in the root.
 
-If in doubt ask [SIG Architecture](https://git.k8s.io/community/sig-architecture/README.md) and they can advise.
+If in doubt ask SIG Architecture and they can advise.
 
 ### What will it take for EPs to "graduate" out of "beta"?
 
@@ -80,11 +89,3 @@ Even so, the process can evolve. As we find new techniques we can improve our pr
 EPs are now prefixed with their associated tracking issue number. This gives
 both the EP a unique identifier and provides an easy breadcrumb for people to
 find the issue where the current state of the EP is being updated.
-
-### My FAQ isn't answered here!
-
-The EP process is still evolving!
-If something is missing or not answered here feel free to reach out to [SIG Architecture](https://git.k8s.io/community/sig-architecture/README.md).
-If you want to propose a change to the EP process you can open a PR on [EP-0000](sig-architecture/0000-kep-process/README.md) with your proposal.
-
-[Kubenetes KEP Process]: https://github.com/KubeVirt/enhancements/blob/master/keps/README.md
