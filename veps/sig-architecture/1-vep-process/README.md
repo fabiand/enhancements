@@ -69,6 +69,7 @@ Process elements:
 - SIG decides on an approver to sheppered the VEP
 - SIG collaborates with other SIGs to ensure it's throughly reviewed
 - SIG approves or rejects VEP
+- Other SIG approvers can veto a proposal
 - SIG owns future maintenance of the implementation
 
 Technical elements:
